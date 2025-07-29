@@ -1,0 +1,88 @@
+# Browser Extension Artifacts
+web-ext-artifacts/
+*.xpi
+*.crx
+*.zip
+build/
+dist/
+packed/
+
+# Development Dependencies
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+*.tgz
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+scratch/
+.cache/
+
+# Claude Code Artifacts
+.claude-temp/
+claude-sessions/
+claude-workspace/
+*.claude-backup
+ai-analysis/
+ai-reports/
+temp-analysis/
+
+# Browser Extension Development
+# Exclude signed extensions
+*.signed.xpi
+# Exclude private keys
+*.pem
+*.p12
+*.key
+web-ext-config.js
+
+# Logs and Debug Files
+*.log
+debug.log
+error.log
+console.log
+
+# Environment and Configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+
+# Documentation Artifacts (keep essential docs)
+!CLAUDE.md
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+!CHANGELOG.md
+
+# Keep source files and essential config
+!src/
+!manifest.json
